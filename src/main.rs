@@ -1,7 +1,4 @@
-use sqlx::{
-    postgres::{PgConnectOptions, PgPoolOptions},
-    PgPool,
-};
+use sqlx::{postgres::PgConnectOptions, PgPool};
 use std::net::{Ipv4Addr, SocketAddr};
 
 use anyhow::Result;
